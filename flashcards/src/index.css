@@ -31,6 +31,14 @@ body {
   min-height: 100vh;
 }
 
+body {
+  background-color: #faebd7;
+  color: #000000;
+  background-image: url("background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -66,4 +74,26 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.foodCardQuestion {  
+  background-color: rgba(26, 114, 143, 0.5);
+  color: #ffffff;
+  padding: 70px;
+}
+
+.foodCardQuestion:hover {
+  box-shadow: 0 0 5px 2px #00000080;
+}
+
+.foodCardAnswer { 
+  background-color: rgba(249, 122, 24, 0.5);
+  color: #ffffff;
+  padding: 70px;
+  backface-visibility: hidden;
+}
+
+
+.foodCardAnswer:hover {
+  box-shadow: 0 0 5px 2px #00000080;
 }
